@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Color Pick</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <h1>Hello</h1>
+    <h1>Color Schema</h1>
+    <div class="parent">
+        <div class="button" id="gray">gray</div>
+        <div class="button" id="red">red</div>
+        <div class="button" id="blue">blue</div>
+        <div class="button" id="yellow">yellow</div>
+        <div class="button" id="purple">purple</div>
+    </div>
+
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form>
+            <p><label>Height in CM: </label><input type="text" id="height" /></p>
+            <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+            <button>Calculate</button>
+            <div id="results"></div>
+            <div id="weight-guide">
+                <h3>BMI Weight Guide</h3>
+                <p>Under Weight = Less than 18.6</p>
+                <p>Normal Range = 18.6 and 24.9</p>
+                <p>Overweight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+
+
+    <h2>Clock</h2>
+
+    <div id="clock"></div>
+
+
+    <h1>Guess the Number</h1>
+    <p>Try and guess a random number between 1 and 100</p>
+    <p>You have 10 attempts to guess the right number</p>
+
+    <form>
+        <label for="guessField" id="guess">Guess a Number</label>
+        <br>
+        <input type="text" id="guessField" class="guessField">
+        <br>
+        <input type="submit" id="submit" value="Submit Guess">
+    </form>
+
+
+    <div>
+        <p>Previous Guesses: <span class="guesses"></span> </p>
+        <p>Guesses Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHigh"></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

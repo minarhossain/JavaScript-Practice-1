@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bind</title>
+</head>
+
+<body style="color:white; background-color: rgb(54, 36, 36);">
+
+    <button>Clcked</button>
+
+
+    // Js code comments section
+    <script>
+        class React {
+            constructor() {
+                this.library = "React";
+                this.server = "http://localhost:3000"
+
+                // requirement 
+                document
+                    .querySelector('button')
+                    .addEventListener('click', this.handleClick.bind(this))
+            }
+            handleClick() {
+                console.log('button clicked');
+                console.log(this);
+            }
+        }
+
+        const app = new React();
+        // Mukto koro vhoi nejar sathe lorai korta hobe
+
+    </script>
+
+</body>
+
+
+</html>

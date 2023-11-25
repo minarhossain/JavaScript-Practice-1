@@ -1,0 +1,36 @@
+.parent{
+    width: 1140px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.button{
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    padding:50px;
+    
+}
+
+#gray{
+    background-color: gray;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: purple;
+}
